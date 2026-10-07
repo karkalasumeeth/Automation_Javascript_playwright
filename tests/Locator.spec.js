@@ -55,7 +55,7 @@ test('getByTestId Locator Test', async({page}) =>{
 
 });
 
-test.only('getByText Locator Test', async({page}) =>{
+test('getByText Locator Test', async({page}) =>{
 
     await page.goto('https://www.amazon.com/');
     await page.getByText('Get your game on').isVisible();
