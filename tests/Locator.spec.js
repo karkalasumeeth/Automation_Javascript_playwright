@@ -1,4 +1,4 @@
-// Include playwright module
+/// Include playwright module
 const {test, expect} = require('@playwright/test');
 const { only } = require('node:test');
 
